@@ -1,0 +1,363 @@
+<html>
+    <head>
+        <title> Star Bajar</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+             .fullbody{ 
+                width: 95%;
+                margin: auto;
+               
+                
+            } 
+            .header{
+                 display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                
+
+            }
+            .leftsection{
+                display: flex;
+                justify-content: space-between;
+                gap:20px
+            }
+            .menusymbol{
+                font-size: 40px;
+                color:gray;
+                align-items: center;
+                margin-top: 15px;
+            }
+            .rightsection{
+                 display: flex;
+                justify-content: space-between;
+                font-size: 60px;
+                gap:20px;
+                background-color: transparent;
+                color:gray
+            }
+            /* .phonesquare{
+                border-left:2px solid #565656;
+                
+            } */
+            .iconborder{
+                font-size: 50px
+            }
+            .image{
+                width:100%
+            }
+            .imghead{
+                font-size: 30px;
+                font-weight: bold;
+                background-color:#f5f5f5;
+                color:#7d5128;
+                margin: 50px 150px 10px 450px;
+                padding: 20px 0px 0px 0px;
+            }
+            .image3{
+
+                 display: flex;
+                justify-content: space-between;
+                width: 95%;
+                margin: auto;
+                /* border:5px solid #7d5128; */
+                gap: 15px;
+                padding: 15px 0px 80px 0px;
+
+            }
+            .img{
+                width:99%;
+                /* border:3px solid #7d5128; */
+
+                
+            }
+            .img1{
+                width: 100%;
+            }
+            .img3background{
+                background-color: #f5f5f5;
+            }
+            .imagelinks{
+                display: flex;
+                justify-content: center;
+                color:#7d5128;
+                font-size: 25px;
+                text-decoration: none;
+                margin: 35px 25px;
+
+            
+            }
+            .imagelinks1{
+                display: flex;
+                justify-content: center;
+                color:#7d5128;
+                font-size: 25px;
+                text-decoration: none;
+                margin: 135px 25px 25px 25px;
+            }
+            .border{
+                border: 2px solid #7d5128;
+                margin: 10px 10px;
+                background-color: white;
+                text-align: center;
+                font-size: 25px;
+                font-weight: bold;
+                color: #7d5128;
+            }
+            .imgfirst{
+                background-image: url("https://starbazaarindia.com/cdn/shop/files/6.jpg?v=1614360952");
+                background-repeat: no-repeat,repeat;
+                width: 95%;
+                
+                height: 65%;
+                padding: 40px;
+                
+            }
+            .firstbox{
+                background-color: #ffffffe6;
+                font-weight: bold;
+                font-size: 44px;
+                /* height :70px; */
+                width: 24%;
+                padding: 30px 20px  ;
+                color: #7d5128;
+                /* height: 45%; */
+                float: right;
+                text-align: center;
+                margin:50px 38px 50px 0px;
+             
+            }
+            .boxbutton{margin-top: 20px;
+                border-radius: 25px;
+                padding: 10px;
+                background-color: transparent;
+                width: 90%;
+                border-color: #7d5128;
+                color: #7d5128;
+            }
+            .imgwidth{
+                width: 95%;
+                margin: auto;
+                margin-top: 20PX;
+            }
+            .imgsecond{
+                background-image: url("https://starbazaarindia.com/cdn/shop/files/7.jpg?v=1614360952");
+                background-repeat: no-repeat,repeat;
+                width: 100%;
+                height: 65%;
+            }
+            .imgthird{
+                  background-image: url("https://starbazaarindia.com/cdn/shop/files/8.jpg?v=1614360952");
+                background-repeat: no-repeat,repeat;
+                width: 100%;
+                height: 65%;
+                margin-top: 25px;
+            }
+            .starbazarinfo{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 25px;
+                /* color: #565656;
+                text-decoration: none; */
+            }
+            .starbazarbackground{
+                background-color: #d3d3d3;
+                color: #565656;
+                padding: 55px 55px;
+                margin-top: 25px;
+            }
+            .shopkeeperimg{
+                width: 85%;
+                margin-left: 30px;
+                gap: 10px;
+            }
+            .textalign{
+                text-align: center;
+                line-height: 20px;
+                margin-top: 25px;
+            }
+            .footerlink{
+                text-decoration: none;
+                color: #565656;
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 20              px;
+            }
+            .footerlink:hover{
+                color: #565656;
+                text-decoration: underline;
+                line-height: 30px;
+            }
+             button{
+                
+                margin-top: 20px;
+                border-radius: 25px;
+                padding: 10px;
+                background-color: transparent;
+                
+                color: #565656;
+            
+             }
+             .imgbutton{
+                margin-top: 15px;
+             }
+             .icon{
+                display: flex;
+                gap: 10px;
+                font-size: 20px;
+                color: white;
+                margin-top: 10px;
+             }
+             .iconback{
+                    background-color: #3b5998;
+                    border-radius: 25px;
+                    padding: 10px;
+            
+             }
+             .icontwiter{
+                background-color: #55acee;
+                border-radius: 25px;
+                padding: 10px;
+
+             }
+             .iconinsta{
+                background-color: #d51f74;
+                border-radius: 25px;
+                padding: 10px;
+
+
+             }
+             .iconenvelope{
+                background-color: #565656;
+                border-radius: 25px;
+                padding: 10px;
+
+             }
+             .footer{
+                margin-top: 20px;
+                text-align: center;
+                font-size: 20px;
+             }
+
+        </style>
+    </head>
+    <body>
+        <!-- full body section -->
+        <div class="fullbody">
+        <!-- header section-->
+        <div class="header">
+            <!-- left side section -->
+            <div class="leftsection"> 
+                <div class="menusymbol">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+
+                </div>
+                <div><img src="https://starbazaarindia.com/cdn/shop/files/STAR_Logo_275x70px_2.jpg?v=1716440384"></div>
+            </div>
+            <!--  Right side section-->
+            <div class="rightsection">
+                <div><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="iconborder">|</div>
+                <div class="phonesquare"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+                
+
+            </div>
+
+        </div>
+        <!-- image section-->
+          <div >
+        <div ><img src="https://starbazaarindia.com/cdn/shop/files/tata-star-1600X656.jpg?v=1614374402" class="image"></div>
+        </div>
+        </div>
+        <div class="img3background" >
+            <div class="imghead">DISCOVER THE BEST OF TATA BRANDS</div>
+        <div class="image3">
+            <div class="border">
+                <img src="https://starbazaarindia.com/cdn/shop/files/SKYE_389px_X_389px-01_1_1024x1024_crop_center.jpg?v=1719916577" class="img1">
+                <a href="" class="imagelinks1">SKYE</a>
+            </div>
+            <div class="border">
+                <img src="https://starbazaarindia.com/cdn/shop/files/389_x_389mm-03_0e57b038-a16d-4f7c-b3b0-fc67c8a6c330_1024x1024_crop_center.jpg?v=1719916831"class="img">
+                <a href="" class="imagelinks">KLIA</a> </div>
+            <div class="border">
+                <img src="https://starbazaarindia.com/cdn/shop/files/389_x_389mm-04_1024x1024_crop_center.jpg?v=1719916955" class="img">
+                <a href="" class="imagelinks">SMARTEL</a> </div>
+        </div>
+    </div>
+    <div class="imgwidth">
+
+    <div class="imgfirst">
+        <div class="firstbox"> FRESH DAY
+                FRESH
+               PRODUCE
+               <button class="boxbutton"> know More</button>
+        </div>
+    </div>
+    <div class="imgsecond">
+        <div class="firstbox">BRINGING
+                       FLAVOURS
+                      OF INDIA
+            <button class="boxbutton" >know More</button>
+        </div>
+    </div>   
+    
+    <div class="imgthird"> 
+        <div class="firstbox">
+            ONLY<br/>
+            THE FRESHEST<br/>
+           MEATS & FISH<br/>
+           <button  class="boxbutton">Know More</button>
+
+        </div>
+    </div> 
+
+    <!--   last link secction-->
+
+    <div class="starbazarbackground">
+        <div class="starbazarinfo">
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0288/1735/8945/files/01.png?v=1592310881" class="shopkeeperimg"/>
+
+            </div>
+            <div class="imgbutton">
+                <img src="https://cdn.shopify.com/s/files/1/0288/1735/8945/files/STARQUIK_LOGO_223px_x_78-01.jpg?v=1716276071" />
+                <div  class="textalign">
+                <div >Shop online <br/>downlod the app today</div>
+                 <button >SHOP NOW</button>
+                 </div>
+            </div>
+                <div >
+                    <div> <a href="https://starbazaarindia.com/pages/about-us"class="footerlink">About Star</a></div>
+                    <div><a href="https://starbazaarindia.com/pages/talk-to-us"class="footerlink">Contact Us</a></div>
+                    <div><a href="https://starbazaarindia.com/apps/s/storelocator"class="footerlink">Stor Locater</a></div>
+                 
+                </div>
+
+
+                
+            <div  >
+                <div><a href="https://starbazaarindia.com/pages/policy"class="footerlink">Policies </a></div>
+                 <div><a href="https://starbazaarindia.com/pages/terms-and-conditions"class="footerlink">Terms & Condition</a></div>
+                  <div><a href="https://starbazaarindia.com/pages/exchange-policy"class="footerlink">Exchange/Return policy</a></div>
+                   <div><a href="https://starbazaarindia.com/pages/csr"class="footerlink">CSR</a></div>
+                    <div><a href="https://starbazaarindia.com/pages/stat-info"class="footerlink">Stutustory Information</a></div>
+            </div>
+            <div  >
+                 <div class="footerlink">Customer Care</div>
+                  <div class="footerlink">Starhelp@trent-tata.com</div>
+                   <div class="footerlink">+91 9029002233</div>
+                   <div class="footerlink">JOin Us On</div>
+                   <div class="icon"> 
+                    <div class="iconback"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+             
+                    <div class="icontwiter"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                    <div class="iconinsta" ><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                    <div class="iconenvelope" ><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                   </div>
+            </div>
+        </div>
+        <div class="footer">All rights reserved 2020 Trent Hypermarket Pvt Ltd</div>
+    </div>
+ 
+    </div>
+    </body>
+</html>

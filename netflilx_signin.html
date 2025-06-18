@@ -3,26 +3,53 @@
 <head>
     <title>Netflix sign in</title>
     <style>
-        .background {
-            background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/7968847f-3da9-44b3-8bbb-13a46579881f/web/IN-en-20250609-TRIFECTA-perspective_32b70b51-20d4-46db-8a1a-3d5428be5f0e_large.jpg");
-            background-repeat: no-repeat;
-
-            width: 100%;
-            height: 100%;
-            background-color: rgb(128, 128, 128, 0.4);
+        body{
+            color: #000;
+            margin: 0px;
+            /* opacity: 0.5; */
         }
+        .background::before {
+            background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/7968847f-3da9-44b3-8bbb-13a46579881f/web/IN-en-20250609-TRIFECTA-perspective_32b70b51-20d4-46db-8a1a-3d5428be5f0e_large.jpg" );
+            /* background-repeat: no-repeat; */
+            /* height: 100%; */
+            
+
+            background-size: cover;
+            opacity: 0.5;
+            position: absolute;
+            content: "";
+            inset:0px;
+            /* height: 700px; */
+
+
+            }
+             .background{
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                padding-bottom: 50pxx   ;
+             }
+                
+            
+        
 
         .Netfliximg {
-            width: 15%;
+            width: 13%;
             margin-left: 8%;
+            position: relative;
+        
         }
 
         .userinput {
             background-color: rgba(0, 0, 0, 0.5);
             /* opacity: 0.;; */
-            width: 23%;
+            width: 29%;
             margin: auto;
-            padding: 45px;
+            padding: 30px;
+            /* padding-bottom: 57px; */
+            /* margin: 5px 0px 45px 0px; */
+            /* margin-bottom: 20px; */
+            position: relative;
         }
 
         .signinhead {
@@ -86,15 +113,71 @@
             color: rgb(255, 255, 255);
             display: flex;
             justify-content: center;
+            font-size: 18px;
+            margin: 7px 0px;
         }
 
-        .footerdescription {
+        .describtion {
             color: gray;
+            font-size: 18px;
         }
 
         .chekbox {
             /* display: flex; */
             color: white;
+            margin: 13px 0px;
+        }
+        .footerlink{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        .footerlink:hover{
+            text-decoration: underline;
+        }
+        .describtionlast{
+            margin: 13px 0px;
+            color: gray;
+            font-size: 14px;
+            font-weight:500;
+        }
+        .lastlinklearnmore{
+            color: rgb(68, 142, 244);
+        }
+        .lastfooterbackground{
+            background-color: #161616;
+            color: rgb(255, 255, 255);
+            padding: 4% 15%;
+            /* font-size: 15px; */
+        }
+        .footerheader{
+            font-size: 18px;
+            color: gray;
+        }
+        .lastfooterlinkbox{
+            display: flex;
+            justify-content: space-between;
+            /* padding: 25px; */
+        }
+        .lastfooterlink{
+            color: gray;
+            margin: 20px 0px;
+
+
+        }
+        .lastfooterlinkselct{
+            padding: 8px;
+            width: 130px;
+            background-color: transparent;
+            color:white;
+            text-align: center;
+            border: 1px solid rgb(255, 255, 255);
+            font-size: 15px;
+            font-weight: bold;
+            margin: 20px 0px;
+
+        }
+        select{
+            color: #161616;
         }
     </style>
 </head>
@@ -117,16 +200,56 @@
             <button class="buttonusesignin">Use a sign in code</button>
             <div><a href="" class="link">Forgot Password</a></div>
             <div class="chekbox"><input type="checkbox">Remember me</div>
-            <div class="chekbox">New to Netflix <a href="" class="footerlink">Sign in Now</a></div>
-            <div class="chekbox">This page is protected by Google re CAPTCHA to ensure you'r not bot</div>
-
+            <div class="describtion">New to Netflix ? <a href="" class="footerlink">Sign upNow</a></div>
+            <div class="describtionlast">This page is protected by Google re CAPTCHA to ensure you'r not bot</div>
+            <div class="describtionlast">This information collected by google reCAPTCHA  is subject to the google<a href="https://policies.google.com/privacy"> Privacy Policy</a> and
+                and <a href="https://policies.google.com/terms">Terms of Service</a>, and is used for providing, maintaining, and improving the reCAPTCHA service and for general 
+                security purposes (it is not used for personalised advertising by Google).</div>
         </div>
 
 
 
 
     </div>
+    <!-- footer section at the last -->
 
+    <!-- background section of the footer -->
+    <div class="lastfooterbackground">
+        <!-- footer header -->
+         <div class="footerheader">Questions? Call 000-800-919-1743 (Toll-Free)</div>
+         <!-- last display flex section div -->
+          <div class="lastfooterlinkbox">
+            <!-- first section of the footer -->
+            <div >
+                <div class="lastfooterlink"><a href="https://help.netflix.com/support/412" class="lastfooterlink">FAQ</a></div>
+                <div class="lastfooterlink"><a href="https://www.netflix.com/in/login" class="lastfooterlink">Cookis Prefernces</a></div>
+                <select class="lastfooterlinkselct ">
+                    <option>English</option>
+                    <option>हिन्दी</option>
+                </select>
+                
+
+            </div>
+            <!-- second section of the footer -->
+             <div >
+                <div class="lastfooterlink"><a href="https://help.netflix.com/"class="lastfooterlink">Help center</a></div>
+                <div class="lastfooterlink"><a href="https://help.netflix.com/legal/corpinfo" class="lastfooterlink">Corporate Information</a></div>
+
+             </div>
+             <!-- third section of the footer -->
+              <div>
+                <div class="lastfooterlink"><a href="https://help.netflix.com/legal/termsofuse" class="lastfooterlink">Terms of Use</a></div>
+              </div>
+            <!-- fourth section pf the footer -->
+             <div>
+                <div class="lastfooterlink"><a href="https://help.netflix.com/legal/privacy" class="lastfooterlink">Privacy</a></div>
+             </div>
+
+
+
+          </div>
+
+    </div>
 
 </body>
 

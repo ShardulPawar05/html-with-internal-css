@@ -2,38 +2,157 @@
     <head>
         <title>Quora-A place to share</title>
         <style>
+         body{
+            margin: 0px;
+         }
             .backgroundimg{
                 background-image: url("https://qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png");
                width: 100%;
                height: 100%;
              }
+             .arranginglogsection{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 700px;
+              /* margin-top: 50px; */
+             }
              .loginsectionbackground{
                 background-color: white;
                 color: black;
-                width: 45%;
-                margin: auto;
+                
+                 width: 47%;
+                 margin-bottom: 10px;
+                
+                 
+                /* margin: auto;   */
+               /* display: block;
+               justify-content: center; 
+               align-items: center;
+                 */
+                
              }
              .headingimgquara{
-                width:12%;
+                width:24%;
+                margin-top: 20px;
              }
              .header{
                 text-align: center;
+                padding: 27px 0px ;
+                /* margin: 20px; */
+                /* margin: 27px 0px; */
+             }
+             .headerdescription{
+              font-weight: bold;
+              color: #282829;
              }
              .pngimg{
                 width: 20px;
+                align-items: center;
              }
              .boxdisplay{
                 display: flex;
                 justify-content: space-between;
+                /* margin-top: 45px; */
                 /* gap: 5px; */
+                /* align-items: center; */
              }
              .internalbox1{
                 width: 50%;
                 border-right: 1px solid black;
+                padding: 5px 20px;
+                
 
              }
              .internalbox{
                 width: 50%;
+                padding: 2px 20px;
+             }
+            .firstboxdescription{
+               margin: 7px 0px;
+               color: gray;
+
+             }
+             .signupwithlemail{
+              color: #636466;
+              /* font-weight: bold; */
+              text-decoration: none;
+              text-align: center;
+             }
+             .googlepng{
+               padding: 10px;
+               border: 1px solid black;
+               outline: none;
+               text-align: center;
+               display: flex;
+               align-items: center;
+               margin: 10px 0px;
+               
+             }
+             .loginemailpassword{
+               font-weight: bold;
+               margin-top: 5px;
+             }
+             input{
+               padding: 11px;
+               margin: 5px 0px;
+               width: 100%;
+             }
+             .secondboxlastsection{
+               display: flex;
+               justify-content: space-between;
+               margin: 15px 0px;
+            
+               align-items: center;
+             }
+             .Forgotpasswordlink{
+               color: gray;
+               text-decoration: none;
+             }
+             .Forgotpasswordlink:hover{
+               text-decoration: underline;
+             }
+             .buttonlogin{
+               padding: 9px;
+               border-radius: 25px;
+               width: 25%;
+               font-weight: bold;
+               color: white;
+               background-color: #1a5aff;
+               border: none;
+             }
+             .hindimarathi{
+              display: flex;
+              justify-content: center;
+              gap: 15px;
+              padding: 8px 0px;
+              /* font-weight: bold; */
+             }
+             .hindimarathilink{
+              font-size: 15px;
+              color: rgb(25, 95, 170);
+              text-decoration: none;
+              gap: 20px;
+             }
+             .lastfooter{
+               text-align: center;
+               padding: 15px 0px;
+             }
+             .footerlinks{
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               padding: 10px 50px;
+               font-size: 14px;
+             }
+             .lastfooterlink{
+              color: gray;
+              text-decoration: none;
+             }
+             .lastfooterlink:hover{
+              text-decoration: underline;
+              align-items: center;
+
              }
 
         </style>
@@ -43,40 +162,60 @@
           <div class="backgroundimg">
             
             <!-- login section start -->
+             <div class="arranginglogsection">
              <div class="loginsectionbackground"> 
                 <!-- heading section of login section -->
-                 <div class="header" ><img src="https://images.squarespace-cdn.com/content/v1/639b5b5db16dac1afbf2ca5c/627bdaaf-d0c6-4718-9b34-f0db82c1939b/Logo_Screen_Red_RGB_1024.png"class="headingimgquara"/></div>
-                 <div class="header"> A place to share knowledge and better understnd the world</div>
+                 <div class="header">
+                 <div class="header1" ><img src="https://images.squarespace-cdn.com/content/v1/639b5b5db16dac1afbf2ca5c/627bdaaf-d0c6-4718-9b34-f0db82c1939b/Logo_Screen_Red_RGB_1024.png"class="headingimgquara"/></div>
+                 <div class="headerdescription"> A place to share knowledge and better understnd the world</div>
+                 </div>
                  <!-- login section inneer two swction google and facebookk or login in quora -->
                   <div class="boxdisplay">
                     <div class="internalbox1">
                     <!-- section first -->
-                     <div>By continuing you indicates that you agree to Qura,s<a href="https://www.quora.com/about/tos">Terms of service</a>and
-                         <a href="https://www.quora.com/about/privacy">Privacy and Policy</a></div>
-                      <div> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/250px-Google_Favicon_2025.svg.png" class="pngimg ">Cotinue with Google</div>
-                      <div><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" class="pngimg">
+                     <div class="firstboxdescription">By continuing you indicates that you agree to Qura,s<a href="https://www.quora.com/about/tos" class="hindimarathilink">Terms of service</a>and
+                         <a href="https://www.quora.com/about/privacy" class="hindimarathilink">Privacy and Policy</a></div>
+                      <div class="googlepng"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/250px-Google_Favicon_2025.svg.png" class="pngimg ">Cotinue with Google</div>
+                      <div class="googlepng"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" class="pngimg">
                       Continue with Facebook</div>
-                      <div><a href="#">Sign up with Email</a></div>   
+                      <div class="signupwithlemail"><a href="#" class="signupwithlemail">Sign up with email</a></div>   
 
                   </div>
                   <!-- section second -->
                    <div class="internalbox">
-                       <div>Login</div>
+                       <div class="loginemailpassword">Login</div>
                        <hr/>
-                       <div>Email</div>
+                       <div class="loginemailpassword">Email</div>
                        <input type="text" placeholder="Your Email"/>
-                       <div>Password</div>
-                       <input type="password" placeholder="your password"/>
+                       <div class="loginemailpassword">Password</div>
+                       <input type="password" placeholder="Your password"/>
                        <!--   foter arranging -->
-                       <div>
-                        <div><a href=""> forgot password?</a></div>
-                        <button>Login</button>
+                       <div class="secondboxlastsection">
+                        <div><a href="" class="Forgotpasswordlink"> Forgot password?</a></div>
+                        <button class="buttonlogin">Login</button>
                        </div>
                    </div>
                 </div>
                 <hr/>
-                <div><a href="https://hi.quora.com/"> हिंदी></a><a href="https://www.quora.com/?prevent_redirect=1">मराठी></a></div>
-
+                <div class="hindimarathi">
+                <div ><a href="https://hi.quora.com/" class="hindimarathilink"> हिंदी</a>></div>
+                <div><a href="https://www.quora.com/?prevent_redirect=1" class="hindimarathilink">मराठी</a>></div>
+                </div>
+               <hr>
+               <!-- last footer link section -->
+                <div class="footerlinks">
+                  <div><a href="https://www.quora.com/about"  class="lastfooterlink">About.</a></div>
+                  <div><a href="https://www.quora.com/careers" class="lastfooterlink" >careers.</a></div>
+                  <div><a href="https://www.quora.com/about/privacy" class="lastfooterlink">Privacy.</a></div>
+                  <div><a href="https://www.quora.com/about/tos" class="lastfooterlink">Terms.</a></div>
+                  <div><a href="https://www.quora.com/contact" class="lastfooterlink">Contact.</a></div>
+                  <div><a href="https://www.quora.com/about/languages" class="lastfooterlink">Languages.</a></div>
+                  <div><a href="https://www.quora.com/about/your_ad_choices" class="lastfooterlink">your ad choices.</a></div>
+                  <div><a href="https://www.quora.com/press" class="lastfooterlink">Press.</a></div>
+                  <div class="firstboxdescription">© Quora, Inc. 2025</div>
+                  
+                </div>
+            </div>
             </div>
           </div>
     </body>
